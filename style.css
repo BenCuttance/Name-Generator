@@ -90,6 +90,25 @@ li {
     
 }
 
-input[value="custom name here"] {
+input[placeholder="custom name here"] {
     text-align: center;
 }
+
+@media only screen and ( max-width: 510px ){
+
+    .mainSection {
+        min-width: 99%;
+        min-height: 99%;
+      
+        background-color: rgb(129, 129, 182);
+        top: 0px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 15px;
+    }
+
+}
+    
