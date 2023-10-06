@@ -11,15 +11,32 @@
     <section class="bodySection">
         <section class="mainSection">
             <h1 class="title">Name Generator</h1>
-
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" >
+            <input type="text" name="customName" id="customInput">
+            </form>
             <div class="btnDiv">
+                
                 <button id="generateBtn">Click Me</button>
             </div>
-            <div class="btnDiv">
+            <section id="showCase">
+                <div id="nameDisplay">
+                    <h2>Name:</h2>
+                    <h2 id="newName">New Name</h2>
+                </div>
+                <div id="descriptionDisplay">
+                    <h3>Description</h3>
+                    <h3 id="description">Description text</h3>
+                </div>
+                <!-- <div id="occupationDisplay">
+                    <h3>Occupation</h3>
+                    <h3 id="occupation">Occupation text</h3>
+                </div> -->
+            </section>
+            <div id="listDiv" class="btnDiv">
                 <ul id="nameList">
 
                 </ul>
-                
+
             </div>
         </section>
     </section>
