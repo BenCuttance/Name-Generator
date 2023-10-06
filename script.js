@@ -63,7 +63,7 @@ generateBtn.addEventListener("click", generateName = () => {
 
     const validateForm = () => {
         var userInput = document.forms['myForm']['customName'].value;
-        if (userInput == "" || userInput == null ){
+        if (userInput == "" || userInput == null || userInput == "custom name here"){
             console.log('Input value == null ')
              console.log("hi")
         // console.log("You clicked the button!")
