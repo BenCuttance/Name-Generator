@@ -87,4 +87,9 @@ li {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    
+}
+
+input[value="custom name here"] {
+    text-align: center;
 }
